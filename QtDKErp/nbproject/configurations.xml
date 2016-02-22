@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/DKDatabase.h</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/utils/DKUtils.h</itemPath>
+      <itemPath>MainForm.h</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.h</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.h</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/include/DKDatabase.cpp</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/utils/DKUtils.cpp</itemPath>
+      <itemPath>MainForm.cpp.cc</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.cpp.cc</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.cpp.cc</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.cpp.cc</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+      <itemPath>MainForm.ui</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.ui</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.ui</itemPath>
+      <itemPath>/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <version>2.0.0</version>
+        <modules>core gui widgets printsupport sql svg xml</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/DKDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/include/DKDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/utils/DKUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/utils/DKUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MainForm.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/DKDatabase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/business/NewBusiness.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/clientes/NewCliente.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/include/DKDatabase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.cpp.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/recibos/Print.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/utils/DKUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/brasilio/NetBeansProjects/QtDKErp/utils/DKUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="MainForm.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MainForm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MainForm.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

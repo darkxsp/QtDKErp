@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainForm</class>
+ <widget class="QMainWindow" name="MainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainForm</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="vLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEmpresa">
+    <property name="title">
+     <string>Empresa</string>
+    </property>
+    <addaction name="ac_newBusiness"/>
+   </widget>
+   <widget class="QMenu" name="menuClientes">
+    <property name="title">
+     <string>Clientes</string>
+    </property>
+    <addaction name="_newClient"/>
+   </widget>
+   <widget class="QMenu" name="menuOr_amentos">
+    <property name="title">
+     <string>Orçamentos</string>
+    </property>
+    <addaction name="ac_newOrcamento"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuEmpresa"/>
+   <addaction name="menuClientes"/>
+   <addaction name="menuOr_amentos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="_newClient">
+   <property name="text">
+    <string>Novo cliente</string>
+   </property>
+  </action>
+  <action name="ac_newBusiness">
+   <property name="text">
+    <string>Nova Empresa</string>
+   </property>
+  </action>
+  <action name="ac_newOrcamento">
+   <property name="text">
+    <string>Novo Orçamento</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>_newClient</sender>
+   <signal>triggered()</signal>
+   <receiver>MainForm</receiver>
+   <slot>newClient()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ac_newBusiness</sender>
+   <signal>triggered()</signal>
+   <receiver>MainForm</receiver>
+   <slot>newBusiness()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ac_newOrcamento</sender>
+   <signal>triggered()</signal>
+   <receiver>MainForm</receiver>
+   <slot>newOrcamento()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>newClient()</slot>
+  <slot>newBusiness()</slot>
+  <slot>newProduto()</slot>
+  <slot>newOrcamento()</slot>
+ </slots>
+</ui>
