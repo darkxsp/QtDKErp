@@ -69,6 +69,10 @@ ${CND_BUILDDIR}/Debug/%.o: nbproject/qt-${CND_CONF}.mk
 
 # Subprojects
 .build-subprojects:
+	cd /home/brasilio/NetBeansProjects/QtDkBusiness && ${MAKE}  -f Makefile CONF=Debug
+	cd /home/brasilio/NetBeansProjects/QtDkClientes && ${MAKE}  -f Makefile CONF=Debug
+	cd /home/brasilio/NetBeansProjects/QtDkProdutos && ${MAKE}  -f Makefile CONF=Debug
+	cd /home/brasilio/NetBeansProjects/QtDkDatabase && ${MAKE}  -f Makefile CONF=Debug
 
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS} nbproject/qt-${CND_CONF}.mk
@@ -76,3 +80,7 @@ ${CND_BUILDDIR}/Debug/%.o: nbproject/qt-${CND_CONF}.mk
 
 # Subprojects
 .clean-subprojects:
+	cd /home/brasilio/NetBeansProjects/QtDkBusiness && ${MAKE}  -f Makefile CONF=Debug clean
+	cd /home/brasilio/NetBeansProjects/QtDkClientes && ${MAKE}  -f Makefile CONF=Debug clean
+	cd /home/brasilio/NetBeansProjects/QtDkProdutos && ${MAKE}  -f Makefile CONF=Debug clean
+	cd /home/brasilio/NetBeansProjects/QtDkDatabase && ${MAKE}  -f Makefile CONF=Debug clean

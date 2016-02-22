@@ -60,6 +60,48 @@
             <pElem>/usr/local/include</pElem>
           </incDir>
         </ccTool>
+        <requiredProjects>
+          <makeArtifact PL="/home/brasilio/NetBeansProjects/QtDkBusiness"
+                        CT="5"
+                        CN="Debug"
+                        AC="true"
+                        BL="true"
+                        WD="/home/brasilio/NetBeansProjects/QtDkBusiness"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libQtDkBusiness.so.1.0.0">
+          </makeArtifact>
+          <makeArtifact PL="/home/brasilio/NetBeansProjects/QtDkClientes"
+                        CT="5"
+                        CN="Debug"
+                        AC="true"
+                        BL="true"
+                        WD="/home/brasilio/NetBeansProjects/QtDkClientes"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libQtDkClientes.so.1.0.0">
+          </makeArtifact>
+          <makeArtifact PL="/home/brasilio/NetBeansProjects/QtDkProdutos"
+                        CT="5"
+                        CN="Debug"
+                        AC="true"
+                        BL="true"
+                        WD="/home/brasilio/NetBeansProjects/QtDkProdutos"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libQtDkProdutos.so.1.0.0">
+          </makeArtifact>
+          <makeArtifact PL="/home/brasilio/NetBeansProjects/QtDkDatabase"
+                        CT="5"
+                        CN="Debug"
+                        AC="true"
+                        BL="true"
+                        WD="/home/brasilio/NetBeansProjects/QtDkDatabase"
+                        BC="${MAKE}  -f Makefile CONF=Debug"
+                        CC="${MAKE}  -f Makefile CONF=Debug clean"
+                        OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libQtDkDatabase.so.2.0.1">
+          </makeArtifact>
+        </requiredProjects>
       </compileType>
       <item path="/home/brasilio/NetBeansProjects/QtDKErp/DKDatabase.h"
             ex="false"

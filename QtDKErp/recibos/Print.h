@@ -33,6 +33,9 @@
 
 #include "../DKDatabase.h"
 #include "../utils/DKUtils.h"
+#include "../../QtDkClientes/DkClientes.h"
+#include "../../QtDkDatabase/DkDatabase.h"
+#include "../../QtDkBusiness/DkBusiness.h"
 
 #include "ui_Print.h"
 
